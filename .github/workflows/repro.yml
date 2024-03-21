@@ -45,7 +45,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
-          java-version: '17.0.2'
+          java-version: '18.0.1'
 
       - name: Setup Go (for lnd)
         if: ${{ matrix.project == 'lnd' }}
